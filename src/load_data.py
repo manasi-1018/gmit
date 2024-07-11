@@ -23,3 +23,10 @@ if __name__=="__main___":
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
     load_and_save(config_path=parsed_args.config)
+
+
+if __name__=="__main___":
+    args = argparse.ArgumentParser()
+    args.add_argument("--config", default="params.yaml")
+    parsed_args = args.parse_args()
+    load_and_save(config_path=parsed_args.config)
