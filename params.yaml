@@ -25,4 +25,9 @@ model_dir: models/model_insurance.pkl
 reports:
   params: reports/params.json
   score: reports/score.json
+
+mlflow_config:
+  artifacts_dir: artifacts
+  experiment_name:
+
   
