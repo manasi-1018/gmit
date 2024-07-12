@@ -67,4 +67,8 @@ if __name__=="__main__":
     args = argparse.ArgumentParser()
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
+<<<<<<< HEAD
     train_and_evaluate(config_path=parsed_args.config)
+=======
+    train_and_evaluate(config_path=parsed_args.config)
+>>>>>>> 374e186981a0e539c20195d83755f9be8061da2e
